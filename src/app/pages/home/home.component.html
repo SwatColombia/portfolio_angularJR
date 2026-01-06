@@ -1,0 +1,73 @@
+<div class="relative isolate overflow-hidden w-screen h-screen max-h-screen">
+ 
+  <!-- Imagen de fondo -->
+  
+
+  <!-- Efectos visuales -->
+  <div
+    class="hidden sm:absolute sm:-top-10 sm:right-1/2 sm:-z-10 sm:mr-10 sm:block sm:transform-gpu sm:blur-3xl"
+    aria-hidden="true"
+  >
+    
+    </div>
+    <!-- Navbar Component -->
+    <div class="mx-auto max-w-7xl px-6 py-8 lg:px-8 z-10 relative">
+      <div class="mx-auto max-w-2xl lg:mx-0">
+        <h2 class="text-4xl font-bold tracking-tight text-white sm:text-6xl " id="title_home">
+          Conoce mi Portafolio.
+        </h2>
+        <p class="mt-24 text-2xl leading-8 font-semibold text-gray-100">
+          Transformo ideas complejas en soluciones funcionales.
+          
+        </p>
+        
+        <p class="mt-22 pt-6 text-2xl leading-8 font-semibold text-gray-100">
+          Explora mi trabajo y mira cómo puedo ayudarte a escalar tu proyecto.
+        </p>
+
+      </div>
+      <div class="mx-auto mt-20 sm:mt-40 max-w-2xl lg:mx-0 lg:max-w-none">
+        <div class="mx-auto mt-20 sm:mt-48 max-w-2xl lg:mx-0 lg:max-w-none">
+          <dl class="mt-8 grid grid-cols-2 gap-8 sm:mt-4 sm:grid-cols-2 lg:grid-cols-4">
+            <!-- Aplica estilos responsivos a los textos dentro de los divs -->
+            <style>
+              @media (max-width: 640px) {
+                #subtitle_one dt,
+                #subtitle_two dt,
+                #subtitle_three dt,
+                #subtitle_four dt,
+                #subtitle_one dd,
+                #subtitle_two dd,
+                #subtitle_three dd,
+                #subtitle_four dd {
+                  font-size: 1.25rem !important; /* Reduce font size en móviles */
+                }
+              }
+            </style>
+        <div class="flex flex-col-reverse" id="subtitle_one">
+          <dt class="text-3xl leading-7 text-gray-300">Conocimientos</dt>
+          <dd class="text-3xl font-bold leading-9 tracking-tight text-white">01.</dd>
+        </div>
+        <div class="flex flex-col-reverse " id="subtitle_two">
+          <dt class="text-3xl leading-7 text-gray-300">Practica</dt>
+          <dd class="text-3xl font-bold leading-9 tracking-tight text-white">02.</dd>
+        </div>
+        <div class="flex flex-col-reverse" id="subtitle_three">
+          <dt class="text-3xl leading-7 text-gray-300">Experiencia</dt>
+          <dd class="text-3xl font-bold leading-9 tracking-tight text-white">03.</dd>
+        </div>
+        <div class="flex flex-col-reverse" id="subtitle_four">
+          <dt class="text-3xl leading-7 text-gray-300">Autonomía</dt>
+          <dd class="text-3xl font-bold leading-9 tracking-tight text-white">04.</dd>
+        </div>
+          </dl>
+        </div>
+        <div>
+            
+        </div>
+      </div>
+    </div>
+    <!-- Contenedor del canvas de Three.js -->
+    <div id="three-container" class="absolute inset-0 z-0"></div>
+  </div>
+

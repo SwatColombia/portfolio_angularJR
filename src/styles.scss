@@ -1,0 +1,57 @@
+/* You can add global styles to this file, and also import other style files */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+    background-color: #000;
+    color: #fff;
+}
+
+.blinker-thin {
+    font-family: "Blinker", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+}
+
+.blinker-extralight {
+    font-family: "Blinker", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+}
+
+.blinker-light {
+    font-family: "Blinker", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+h1 {
+    font-family: "Blinker", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.blinker-semibold {
+    font-family: "Blinker", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.blinker-bold {
+    font-family: "Blinker", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.blinker-extrabold {
+    font-family: "Blinker", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+.blinker-black {
+    font-family: "Blinker", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
